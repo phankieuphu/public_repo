@@ -1,0 +1,51 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.options": {
+    "rules": {
+      "import/default": "error",
+      "import/export": "error",
+      "import/named": "error",
+      "import/namespace": "error",
+      "import/no-duplicates": "error",
+      "import/no-named-as-default": "error",
+      "import/no-named-as-default-member": "error",
+      "import/no-unresolved": "error"
+    }
+  },
+  "javascript.format.enable": false,
+  "window.zoomLevel": 1,
+  "editor.tabSize": 4,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "editor.formatOnSave": true,
+  "cSpell.words": ["gorm", "vietlink"],
+
+  "go.lintOnSave": "workspace",
+  "go.vetOnSave": "workspace",
+  "go.buildTags": "",
+  "go.buildFlags": [],
+  "go.lintTool": "golint",
+  "go.lintFlags": [],
+  "go.vetFlags": [],
+  "go.testOnSave": false,
+  "go.useLanguageServer": true,
+  "go.formatTool": "goimports",
+  "go.gopath": "",
+  "go.coverOnSave": false,
+  "go.useCodeSnippetsOnFunctionSuggest": true,
+  "go.formatTool": "goreturns",
+  "go.formatFlags": [],
+  "go.goroot": "",
+  "go.gopath": "",
+  "go.inferGopath": true,
+  "go.gocodeAutoBuild": false,
+  "go.testFlags": ["-v"],
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "GO111MODULE": "on"
+  }
+}
